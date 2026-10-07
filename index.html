@@ -50,34 +50,24 @@
           }
         }
       }
-    }  </script>
-
-  <!-- Lucide Icons -->
-  <script src="https://unpkg.com/lucide@latest"></script>
+    }
+  </script>
 
   <style>
-    /* Architectural Blueprint Grid Pattern */
-    .blueprint-grid {
-      background-size: 40px 40px;
+    /* Architectural Blueprint & Subtle Grid Backgrounds */
+    .arch-grid {
+      background-size: 36px 36px;
       background-image: 
-        linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        linear-gradient(to right, rgba(198, 156, 85, 0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(198, 156, 85, 0.05) 1px, transparent 1px);
     }
-    .gold-gradient-text {
-      background: linear-gradient(135deg, #DFC082 0%, #C5A059 50%, #96793B 100%);
+    .gold-gradient {
+      background: linear-gradient(135deg, #C69C55 0%, #E8D3A7 50%, #B88B42 100%);
+    }
+    .gold-text-gradient {
+      background: linear-gradient(135deg, #C69C55 0%, #F3E3C3 50%, #B88B42 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-    }
-    .gold-border-gradient {
-      border-image: linear-gradient(to bottom right, rgba(197, 160, 89, 0.4), rgba(197, 160, 89, 0.05)) 1;
-    }
-    /* Smooth transitions */
-    .card-hover-effect {
-      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-    .card-hover-effect:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.7), 0 0 20px 2px rgba(197, 160, 89, 0.15);
     }
   </style>
 </head>
