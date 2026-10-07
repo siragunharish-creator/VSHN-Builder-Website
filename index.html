@@ -1,0 +1,1502 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VSHN Builders | House Construction in Chennai & Tamil Nadu</title>
+  <meta name="description" content="VSHN Builders provides house construction, renovation, 2D plans, 3D designs and construction guidance in Chennai, Tiruvannamalai and Tamil Nadu." />
+  <meta name="keywords" content="house construction company in Chennai, house construction in Chennai, builders in Chennai, residential construction Chennai, home construction Chennai, house construction Tiruvannamalai, home builders Tamil Nadu, 2D house plan Chennai, 3D house design Chennai, home renovation Chennai" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="VSHN Builders | Building Dreams. Creating Trust." />
+  <meta property="og:description" content="Complete residential home construction, 2D plans, 3D elevations, and renovation across Chennai & Tiruvannamalai." />
+  <meta property="og:type" content="website" />
+
+  <!-- Tailwind CSS & Lucide Icons -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cinzel:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              charcoal: '#111317',
+              dark: '#181b20',
+              card: '#1f232b',
+              gold: '#C69C55',
+              goldLight: '#DFC085',
+              goldDark: '#A8803D',
+              border: '#2a2f3a',
+              concrete: '#8E95A5',
+              surface: '#F8F9FA'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['"Cinzel"', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Architectural Blueprint & Subtle Grid Backgrounds */
+    .arch-grid {
+      background-size: 36px 36px;
+      background-image: 
+        linear-gradient(to right, rgba(198, 156, 85, 0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(198, 156, 85, 0.05) 1px, transparent 1px);
+    }
+    .gold-gradient {
+      background: linear-gradient(135deg, #C69C55 0%, #E8D3A7 50%, #B88B42 100%);
+    }
+    .gold-text-gradient {
+      background: linear-gradient(135deg, #C69C55 0%, #F3E3C3 50%, #B88B42 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-[#0D0F12] text-slate-100 font-sans antialiased selection:bg-brand-gold selection:text-black">
+
+  <!-- ================= TOP CONTACT BAR ================= -->
+  <div class="bg-[#090A0D] border-b border-white/5 text-xs text-brand-concrete py-2 px-4 sm:px-8">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div class="flex items-center gap-4 flex-wrap justify-center sm:justify-start">
+        <span class="flex items-center gap-1.5 text-white/90">
+          <i data-lucide="map-pin" class="w-3.5 h-3.5 text-brand-gold"></i>
+          AA Garden, 42/60, Ottravadai St, Tondiarpet, Chennai - 600081
+        </span>
+        <span class="hidden md:inline text-white/20">|</span>
+        <span class="hidden md:flex items-center gap-1.5">
+          <i data-lucide="shield-check" class="w-3.5 h-3.5 text-brand-gold"></i>
+          12+ Years Field Experience • Chennai & Tiruvannamalai
+        </span>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="tel:+917092507374" class="hover:text-brand-gold transition-colors flex items-center gap-1 text-white">
+          <i data-lucide="phone" class="w-3 h-3 text-brand-gold"></i> +91 70925 07374
+        </a>
+        <a href="https://wa.me/917092507374?text=Hi%20VSHN%20Builders%20%F0%9F%91%8B%0AI%20am%20interested%20in%20building%20a%20house.%0ALocation%3A%0APlot%20Size%3A%0ANumber%20of%20Floors%3A%0APlease%20share%20more%20details." target="_blank" rel="noopener noreferrer" class="hover:text-[#25D366] transition-colors flex items-center gap-1 text-white">
+          <i data-lucide="message-circle" class="w-3.5 h-3.5 text-[#25D366]"></i> WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= HEADER / NAVBAR ================= -->
+  <header class="sticky top-0 z-50 bg-[#111317]/95 backdrop-blur-md border-b border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 py-3 flex items-center justify-between">
+      
+      <!-- LOGO -->
+      <a href="#hero" class="flex items-center gap-3 group">
+        <div class="relative bg-white p-1 rounded-full w-12 h-12 shadow-md flex items-center justify-center overflow-hidden border border-brand-gold/40">
+          <!-- User's Official VSHN Logo file reference -->
+          <img src="logo.jpg" alt="VSHN Builders Logo" class="w-full h-full object-contain transform group-hover:scale-105 transition-transform duration-300" />
+        </div>
+        <div>
+          <div class="text-xl font-extrabold tracking-wider text-white font-serif flex items-center gap-1.5">
+            VSHN <span class="text-brand-gold text-sm tracking-widest font-sans font-bold">BUILDERS</span>
+          </div>
+          <p class="text-[10px] tracking-wider text-brand-concrete uppercase">Building Dreams. Creating Trust.</p>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-slate-300">
+        <a href="#about" class="hover:text-brand-gold transition-colors">About</a>
+        <a href="#services" class="hover:text-brand-gold transition-colors">Services</a>
+        <a href="#progression" class="hover:text-brand-gold transition-colors">2D to Real Home</a>
+        <a href="#process" class="hover:text-brand-gold transition-colors">Process</a>
+        <a href="#projects" class="hover:text-brand-gold transition-colors">Projects</a>
+        <a href="#packages" class="hover:text-brand-gold transition-colors">Packages</a>
+        <a href="#gallery" class="hover:text-brand-gold transition-colors">Gallery</a>
+        <a href="#contact" class="hover:text-brand-gold transition-colors">Contact</a>
+      </nav>
+
+      <!-- Right CTAs -->
+      <div class="hidden sm:flex items-center gap-3">
+        <a href="https://www.google.com/maps/dir/?api=1&destination=VSHN+Builders,+AA+Garden,+42%2F60,+Ottravadai+St,+Press+Colony,+Tondiarpet,+Chennai,+Tamil+Nadu+600081" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-lg border border-brand-border hover:border-brand-gold text-slate-300 hover:text-brand-gold transition-all" title="Get Office Directions">
+          <i data-lucide="map-pin" class="w-4 h-4"></i>
+        </a>
+        <a href="#contact" class="bg-brand-gold hover:bg-brand-goldDark text-black font-semibold text-xs tracking-wider uppercase px-5 py-2.5 rounded-lg transition-all shadow-lg shadow-brand-gold/20 flex items-center gap-2">
+          <span>Get a Quote</span>
+          <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button id="mobileMenuBtn" class="lg:hidden text-white p-2 focus:outline-none" aria-label="Toggle menu">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Dropdown -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-brand-dark border-b border-brand-border px-6 py-6 flex flex-col gap-4 text-sm font-medium">
+      <a href="#about" class="mobile-nav-link text-slate-200 hover:text-brand-gold py-1">About Us</a>
+      <a href="#services" class="mobile-nav-link text-slate-200 hover:text-brand-gold py-1">Services</a>
+      <a href="#progression" class="mobile-nav-link text-slate-200 hover:text-brand-gold py-1">2D to Real Home Progression</a>
+      <a href="#process" class="mobile-nav-link text-slate-200 hover:text-brand-gold py-1">7-Step Construction Process</a>
+      <a href="#projects" class="mobile-nav-link text-slate-200 hover:text-brand-gold py-1">Featured Projects</a>
+      <a href="#packages" class="mobile-nav-link text-slate-200 hover:text-brand-gold py-1">Pricing Packages</a>
+      <a href="#gallery" class="mobile-nav-link text-slate-200 hover:text-brand-gold py-1">Visual Gallery</a>
+      <a href="#service-areas" class="mobile-nav-link text-slate-200 hover:text-brand-gold py-1">Office Location & Map</a>
+      <a href="#contact" class="mobile-nav-link text-slate-200 hover:text-brand-gold py-1">Contact & Estimation</a>
+      
+      <div class="pt-4 border-t border-brand-border flex flex-col gap-3">
+        <a href="https://www.google.com/maps/dir/?api=1&destination=VSHN+Builders,+AA+Garden,+42%2F60,+Ottravadai+St,+Press+Colony,+Tondiarpet,+Chennai,+Tamil+Nadu+600081" target="_blank" rel="noopener noreferrer" class="w-full text-center py-2.5 rounded-lg border border-brand-border text-slate-200 flex items-center justify-center gap-2">
+          <i data-lucide="map-pin" class="w-4 h-4 text-brand-gold"></i> Open Office in Google Maps
+        </a>
+        <a href="https://wa.me/917092507374?text=Hi%20VSHN%20Builders%20%F0%9F%91%8B%0AI%20am%20interested%20in%20building%20a%20house." target="_blank" rel="noopener noreferrer" class="w-full text-center py-2.5 rounded-lg bg-[#25D366] text-black font-bold flex items-center justify-center gap-2">
+          <i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp Consultation
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= 6. HERO SECTION ================= -->
+  <section id="hero" class="relative min-h-[92vh] flex items-center justify-center arch-grid overflow-hidden border-b border-brand-border">
+    <!-- Subtle architectural backdrop tint -->
+    <div class="absolute inset-0 bg-gradient-to-t from-[#0D0F12] via-[#0D0F12]/85 to-transparent pointer-events-none"></div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-8 py-20 text-center z-10">
+      
+      <!-- Trust Badge -->
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-gold/10 border border-brand-gold/30 text-brand-gold text-xs font-semibold uppercase tracking-wider mb-8">
+        <i data-lucide="shield-check" class="w-4 h-4 text-brand-gold"></i>
+        <span>12+ Years of Construction Experience • Tamil Nadu</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold text-white font-serif tracking-tight leading-[1.15] max-w-5xl mx-auto">
+        Building Dreams. <br class="hidden sm:block"/>
+        <span class="gold-text-gradient">Creating Trust.</span>
+      </h1>
+
+      <!-- Subtitle -->
+      <p class="mt-4 text-lg sm:text-xl font-medium text-brand-gold tracking-wide uppercase">
+        Complete Home Construction in Chennai & Tamil Nadu
+      </p>
+
+      <!-- Supporting Body Copy -->
+      <p class="mt-6 text-base sm:text-lg text-slate-300 max-w-3xl mx-auto font-light leading-relaxed">
+        From planning and 2D floor plans to 3D design, construction and finishing, VSHN Builders helps you build your dream home with practical guidance and transparent execution.
+      </p>
+
+      <!-- Hero CTAs -->
+      <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#contact" class="w-full sm:w-auto px-8 py-4 rounded-lg bg-brand-gold hover:bg-brand-goldDark text-black font-bold text-sm uppercase tracking-wider transition-all shadow-xl shadow-brand-gold/20 flex items-center justify-center gap-2">
+          <span>Start Your Project</span>
+          <i data-lucide="chevron-right" class="w-4 h-4"></i>
+        </a>
+        <a href="#projects" class="w-full sm:w-auto px-8 py-4 rounded-lg bg-brand-card hover:bg-brand-dark border border-brand-border hover:border-brand-gold text-white font-semibold text-sm uppercase tracking-wider transition-all flex items-center justify-center gap-2">
+          <span>View Our Projects</span>
+          <i data-lucide="building" class="w-4 h-4 text-brand-gold"></i>
+        </a>
+      </div>
+
+      <!-- Secondary Tagline Pill -->
+      <div class="mt-14 inline-block border-t border-brand-border pt-6">
+        <p class="text-xs uppercase tracking-[0.25em] text-brand-concrete font-semibold">
+          YOUR DREAM HOME. OUR RESPONSIBILITY.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 7. TRUST & EXPERIENCE METRICS ================= -->
+  <section class="bg-brand-dark border-b border-brand-border py-12 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 divide-y sm:divide-y-0 sm:divide-x divide-white/10">
+        
+        <div class="pt-4 sm:pt-0 sm:px-6 text-center">
+          <div class="text-3xl sm:text-5xl font-extrabold text-white font-serif">12<span class="text-brand-gold">+</span></div>
+          <p class="mt-2 text-xs sm:text-sm text-brand-concrete font-medium uppercase tracking-wider">Years of Construction Experience</p>
+        </div>
+
+        <div class="pt-4 sm:pt-0 sm:px-6 text-center">
+          <div class="text-3xl sm:text-5xl font-extrabold text-white font-serif">20<span class="text-brand-gold">+</span></div>
+          <p class="mt-2 text-xs sm:text-sm text-brand-concrete font-medium uppercase tracking-wider">Years Combined Founder Experience</p>
+        </div>
+
+        <div class="pt-4 sm:pt-0 sm:px-6 text-center">
+          <div class="text-xl sm:text-3xl font-extrabold text-white font-serif mt-2">Chennai + Tiruvannamalai</div>
+          <p class="mt-2 text-xs sm:text-sm text-brand-concrete font-medium uppercase tracking-wider">Primary Service Areas</p>
+        </div>
+
+        <div class="pt-4 sm:pt-0 sm:px-6 text-center">
+          <div class="text-xl sm:text-3xl font-extrabold text-brand-gold font-serif mt-2">End-to-End</div>
+          <p class="mt-2 text-xs sm:text-sm text-brand-concrete font-medium uppercase tracking-wider">Design to Handover Support</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 8. ABOUT VSHN BUILDERS & FOUNDERS ================= -->
+  <section id="about" class="py-24 bg-[#0D0F12] border-b border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-6 space-y-6">
+          <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">About VSHN Builders</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif leading-tight">
+            More Than Construction. <br />
+            <span class="gold-text-gradient">We Build With Responsibility.</span>
+          </h2>
+          <p class="text-slate-300 leading-relaxed font-light">
+            VSHN Builders is a construction-focused company serving Chennai, Tiruvannamalai, and Tamil Nadu. Our approach combines practical field construction experience with planning, engineering design, and customer-focused execution.
+          </p>
+
+          <!-- 7-Stage Progression Flow -->
+          <div class="p-5 rounded-xl bg-brand-card border border-brand-border">
+            <p class="text-xs font-semibold text-brand-gold uppercase tracking-wider mb-3">Our Complete Journey:</p>
+            <div class="flex flex-wrap items-center gap-2 text-xs sm:text-sm font-medium text-slate-200">
+              <span class="bg-black/50 px-2.5 py-1 rounded border border-white/10">Idea</span>
+              <span class="text-brand-gold">→</span>
+              <span class="bg-black/50 px-2.5 py-1 rounded border border-white/10">Planning</span>
+              <span class="text-brand-gold">→</span>
+              <span class="bg-black/50 px-2.5 py-1 rounded border border-white/10">Design</span>
+              <span class="text-brand-gold">→</span>
+              <span class="bg-black/50 px-2.5 py-1 rounded border border-white/10">Estimation</span>
+              <span class="text-brand-gold">→</span>
+              <span class="bg-black/50 px-2.5 py-1 rounded border border-white/10">Construction</span>
+              <span class="text-brand-gold">→</span>
+              <span class="bg-black/50 px-2.5 py-1 rounded border border-white/10">Finishing</span>
+              <span class="text-brand-gold">→</span>
+              <span class="bg-brand-gold text-black font-bold px-2.5 py-1 rounded">Handover</span>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-4 pt-2">
+            <div class="flex items-start gap-2.5 text-sm text-slate-300">
+              <i data-lucide="check-circle" class="w-4 h-4 text-brand-gold mt-1 shrink-0"></i>
+              <span>Practical site guidance</span>
+            </div>
+            <div class="flex items-start gap-2.5 text-sm text-slate-300">
+              <i data-lucide="check-circle" class="w-4 h-4 text-brand-gold mt-1 shrink-0"></i>
+              <span>Transparent communication</span>
+            </div>
+            <div class="flex items-start gap-2.5 text-sm text-slate-300">
+              <i data-lucide="check-circle" class="w-4 h-4 text-brand-gold mt-1 shrink-0"></i>
+              <span>Quality-focused execution</span>
+            </div>
+            <div class="flex items-start gap-2.5 text-sm text-slate-300">
+              <i data-lucide="check-circle" class="w-4 h-4 text-brand-gold mt-1 shrink-0"></i>
+              <span>Tamil Nadu local knowledge</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Founder Story Card -->
+        <div class="lg:col-span-6 bg-brand-card border border-brand-border rounded-2xl p-8 relative overflow-hidden">
+          <div class="absolute -right-10 -bottom-10 w-44 h-44 bg-brand-gold/10 rounded-full blur-3xl pointer-events-none"></div>
+          
+          <div class="flex items-center gap-3 mb-6">
+            <div class="p-3 bg-brand-gold/10 rounded-lg text-brand-gold border border-brand-gold/20">
+              <i data-lucide="hard-hat" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold text-white font-serif">Founder Heritage & Technical Leadership</h3>
+              <p class="text-xs text-brand-concrete">Generational building knowledge meets civil engineering precision</p>
+            </div>
+          </div>
+
+          <div class="space-y-4 text-slate-300 text-sm leading-relaxed border-l-2 border-brand-gold pl-5">
+            <p>
+              <strong class="text-white">P. Vadamalai</strong> began working in the construction field at a young age and started his first independent construction work in <strong>2006</strong>. Over decades of ground execution, he established a standard of durability and practical building integrity across residential works.
+            </p>
+            <p>
+              His son, <strong class="text-white">Vinoth Kumar, B.E. Civil Engineering</strong>, brings modern engineering expertise in structural building planning, architectural 2D & 3D design, electrical, plumbing, and structured project management.
+            </p>
+            <p class="text-brand-gold font-medium pt-2">
+              Together, their field experience and modern civil engineering discipline form the foundation of VSHN Builders.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 9. SERVICES ================= -->
+  <section id="services" class="py-24 bg-brand-dark border-b border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">Services</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif mt-2">
+          Everything You Need to Build With Confidence
+        </h2>
+        <p class="text-slate-400 text-sm mt-3">From empty plot layout drawings to handing over completed keys, our core services cover every residential requirement.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Card 1 -->
+        <div class="bg-brand-card border border-brand-border hover:border-brand-gold/60 transition-all rounded-xl p-8 flex flex-col justify-between group">
+          <div>
+            <div class="text-brand-gold text-xs font-mono font-bold tracking-widest mb-4">01</div>
+            <div class="w-12 h-12 bg-[#121418] rounded-lg flex items-center justify-center text-brand-gold mb-6 border border-white/5 group-hover:scale-105 transition-transform">
+              <i data-lucide="home" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Complete House Construction</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">
+              End-to-end residential construction from soil foundation, structural framing, brickwork, plastering, to final finishing and key handover.
+            </p>
+          </div>
+          <a href="#contact" class="mt-6 inline-flex items-center gap-2 text-xs font-semibold text-brand-gold group-hover:text-brand-goldLight transition-colors">
+            <span>Learn More / Inquire</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-brand-card border border-brand-border hover:border-brand-gold/60 transition-all rounded-xl p-8 flex flex-col justify-between group">
+          <div>
+            <div class="text-brand-gold text-xs font-mono font-bold tracking-widest mb-4">02</div>
+            <div class="w-12 h-12 bg-[#121418] rounded-lg flex items-center justify-center text-brand-gold mb-6 border border-white/5 group-hover:scale-105 transition-transform">
+              <i data-lucide="drafting-compass" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">2D House Plans</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">
+              Practical floor plans designed specifically around your plot dimensions, family ventilation needs, local Vaastu requirements, and functionality.
+            </p>
+          </div>
+          <a href="#contact" class="mt-6 inline-flex items-center gap-2 text-xs font-semibold text-brand-gold group-hover:text-brand-goldLight transition-colors">
+            <span>Learn More / Inquire</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-brand-card border border-brand-border hover:border-brand-gold/60 transition-all rounded-xl p-8 flex flex-col justify-between group">
+          <div>
+            <div class="text-brand-gold text-xs font-mono font-bold tracking-widest mb-4">03</div>
+            <div class="w-12 h-12 bg-[#121418] rounded-lg flex items-center justify-center text-brand-gold mb-6 border border-white/5 group-hover:scale-105 transition-transform">
+              <i data-lucide="box" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">3D Architectural Design</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">
+              Photorealistic 3D exterior & elevation visualization that helps you see your house's final look, colors, and lighting before brickwork starts.
+            </p>
+          </div>
+          <a href="#contact" class="mt-6 inline-flex items-center gap-2 text-xs font-semibold text-brand-gold group-hover:text-brand-goldLight transition-colors">
+            <span>Learn More / Inquire</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-brand-card border border-brand-border hover:border-brand-gold/60 transition-all rounded-xl p-8 flex flex-col justify-between group">
+          <div>
+            <div class="text-brand-gold text-xs font-mono font-bold tracking-widest mb-4">04</div>
+            <div class="w-12 h-12 bg-[#121418] rounded-lg flex items-center justify-center text-brand-gold mb-6 border border-white/5 group-hover:scale-105 transition-transform">
+              <i data-lucide="wrench" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Home Renovation</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">
+              Structural modification, floor additions, kitchen & bathroom remodeling, waterproofing, and modernization of existing residential properties.
+            </p>
+          </div>
+          <a href="#contact" class="mt-6 inline-flex items-center gap-2 text-xs font-semibold text-brand-gold group-hover:text-brand-goldLight transition-colors">
+            <span>Learn More / Inquire</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="bg-brand-card border border-brand-border hover:border-brand-gold/60 transition-all rounded-xl p-8 flex flex-col justify-between group">
+          <div>
+            <div class="text-brand-gold text-xs font-mono font-bold tracking-widest mb-4">05</div>
+            <div class="w-12 h-12 bg-[#121418] rounded-lg flex items-center justify-center text-brand-gold mb-6 border border-white/5 group-hover:scale-105 transition-transform">
+              <i data-lucide="map" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Planning & Construction Guidance</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">
+              Dedicated advisory for landowners who already hold a plot in Chennai or Tiruvannamalai and need phased roadmap planning.
+            </p>
+          </div>
+          <a href="#contact" class="mt-6 inline-flex items-center gap-2 text-xs font-semibold text-brand-gold group-hover:text-brand-goldLight transition-colors">
+            <span>Learn More / Inquire</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="bg-brand-card border border-brand-border hover:border-brand-gold/60 transition-all rounded-xl p-8 flex flex-col justify-between group">
+          <div>
+            <div class="text-brand-gold text-xs font-mono font-bold tracking-widest mb-4">06</div>
+            <div class="w-12 h-12 bg-[#121418] rounded-lg flex items-center justify-center text-brand-gold mb-6 border border-white/5 group-hover:scale-105 transition-transform">
+              <i data-lucide="clipboard-check" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Construction Consultation</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">
+              Technical review of steel grades, cement types, curing timelines, structural integrity checks, and realistic budget estimation.
+            </p>
+          </div>
+          <a href="#contact" class="mt-6 inline-flex items-center gap-2 text-xs font-semibold text-brand-gold group-hover:text-brand-goldLight transition-colors">
+            <span>Learn More / Inquire</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 10. 2D → 3D → REAL HOME PROGRESSION ================= -->
+  <section id="progression" class="py-24 bg-[#0D0F12] border-b border-brand-border arch-grid">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">The Visual Roadmap</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif mt-2">
+          From Your Idea to a Real Home
+        </h2>
+        <p class="text-slate-300 text-sm mt-3">
+          Before construction begins, we help you visualise your home, understand the layout, and make important decisions with greater confidence.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Step 1 -->
+        <div class="bg-brand-card border border-brand-border p-6 rounded-xl flex flex-col items-center text-center">
+          <div class="w-full h-44 bg-[#14171D] border border-dashed border-brand-border rounded-lg flex flex-col items-center justify-center p-4 mb-5">
+            <i data-lucide="layers" class="w-10 h-10 text-brand-gold mb-2"></i>
+            <span class="text-xs font-mono text-slate-400">2D CAD BLUEPRINT</span>
+            <span class="text-[10px] text-brand-concrete mt-1">Exact plot & room dimensions</span>
+          </div>
+          <span class="text-xs font-mono font-bold text-brand-gold uppercase">Step 01</span>
+          <h3 class="text-base font-bold text-white mt-1">2D Floor Plan</h3>
+          <p class="text-xs text-slate-400 mt-2">Functional room layout, spatial efficiency, and Vaastu orientation.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="bg-brand-card border border-brand-border p-6 rounded-xl flex flex-col items-center text-center">
+          <div class="w-full h-44 bg-[#14171D] border border-dashed border-brand-border rounded-lg flex flex-col items-center justify-center p-4 mb-5">
+            <i data-lucide="sparkles" class="w-10 h-10 text-brand-gold mb-2"></i>
+            <span class="text-xs font-mono text-slate-400">3D ELEVATION RENDER</span>
+            <span class="text-[10px] text-brand-concrete mt-1">Colors, texture, and facade</span>
+          </div>
+          <span class="text-xs font-mono font-bold text-brand-gold uppercase">Step 02</span>
+          <h3 class="text-base font-bold text-white mt-1">3D Design</h3>
+          <p class="text-xs text-slate-400 mt-2">Clear visual confirmation of exterior look and lighting details.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="bg-brand-card border border-brand-border p-6 rounded-xl flex flex-col items-center text-center">
+          <div class="w-full h-44 bg-[#14171D] border border-dashed border-brand-border rounded-lg flex flex-col items-center justify-center p-4 mb-5">
+            <i data-lucide="hammer" class="w-10 h-10 text-brand-gold mb-2"></i>
+            <span class="text-xs font-mono text-slate-400">ON-SITE EXECUTION</span>
+            <span class="text-[10px] text-brand-concrete mt-1">Structural curing & supervision</span>
+          </div>
+          <span class="text-xs font-mono font-bold text-brand-gold uppercase">Step 03</span>
+          <h3 class="text-base font-bold text-white mt-1">Construction</h3>
+          <p class="text-xs text-slate-400 mt-2">Quality steel, aggregate mixing, and milestone-based supervision.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="bg-brand-card border border-brand-border p-6 rounded-xl flex flex-col items-center text-center">
+          <div class="w-full h-44 bg-[#14171D] border border-dashed border-brand-border rounded-lg flex flex-col items-center justify-center p-4 mb-5">
+            <i data-lucide="key" class="w-10 h-10 text-brand-gold mb-2"></i>
+            <span class="text-xs font-mono text-slate-400">FINISHED KEYS HANDOVER</span>
+            <span class="text-[10px] text-brand-concrete mt-1">Ready-to-move residence</span>
+          </div>
+          <span class="text-xs font-mono font-bold text-brand-gold uppercase">Step 04</span>
+          <h3 class="text-base font-bold text-white mt-1">Completed Home</h3>
+          <p class="text-xs text-slate-400 mt-2">Polished finishing, final site cleanup, and smooth handover.</p>
+        </div>
+
+      </div>
+
+      <div class="mt-12 text-center">
+        <a href="https://wa.me/917092507374?text=Hi%20VSHN%20Builders%20%F0%9F%91%8B%0AI%20would%20like%20to%20see%20sample%202D%20and%203D%20plans." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-sm font-semibold text-brand-gold hover:text-brand-goldLight underline">
+          <span>Ask us on WhatsApp to view 2D & 3D sample files</span>
+          <i data-lucide="external-link" class="w-4 h-4"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 11. 7-STEP CONSTRUCTION PROCESS ================= -->
+  <section id="process" class="py-24 bg-brand-dark border-b border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">Methodology</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif mt-2">
+          Structured 7-Step Construction Process
+        </h2>
+        <p class="text-slate-400 text-sm mt-3">From initial conversation to the moment you step into your new living room.</p>
+      </div>
+
+      <!-- Process Horizontal / Vertical Stepper -->
+      <div class="grid grid-cols-1 md:grid-cols-7 gap-4">
+        
+        <div class="bg-brand-card p-5 rounded-xl border border-brand-border relative">
+          <div class="text-xs font-mono text-brand-gold font-bold">01</div>
+          <h3 class="text-sm font-bold text-white mt-2">Consultation</h3>
+          <p class="text-xs text-slate-400 mt-1">Understand your requirements, plot, and budget.</p>
+        </div>
+
+        <div class="bg-brand-card p-5 rounded-xl border border-brand-border relative">
+          <div class="text-xs font-mono text-brand-gold font-bold">02</div>
+          <h3 class="text-sm font-bold text-white mt-2">Site Assessment</h3>
+          <p class="text-xs text-slate-400 mt-1">Review plot soil, road access, and water levels.</p>
+        </div>
+
+        <div class="bg-brand-card p-5 rounded-xl border border-brand-border relative">
+          <div class="text-xs font-mono text-brand-gold font-bold">03</div>
+          <h3 class="text-sm font-bold text-white mt-2">Planning</h3>
+          <p class="text-xs text-slate-400 mt-1">Develop floor plans and structural approach.</p>
+        </div>
+
+        <div class="bg-brand-card p-5 rounded-xl border border-brand-border relative">
+          <div class="text-xs font-mono text-brand-gold font-bold">04</div>
+          <h3 class="text-sm font-bold text-white mt-2">3D Design</h3>
+          <p class="text-xs text-slate-400 mt-1">Visualise proposed exterior facade appearance.</p>
+        </div>
+
+        <div class="bg-brand-card p-5 rounded-xl border border-brand-border relative">
+          <div class="text-xs font-mono text-brand-gold font-bold">05</div>
+          <h3 class="text-sm font-bold text-white mt-2">Estimation</h3>
+          <p class="text-xs text-slate-400 mt-1">Prepare BOQ estimate and package details.</p>
+        </div>
+
+        <div class="bg-brand-card p-5 rounded-xl border border-brand-border relative">
+          <div class="text-xs font-mono text-brand-gold font-bold">06</div>
+          <h3 class="text-sm font-bold text-white mt-2">Construction</h3>
+          <p class="text-xs text-slate-400 mt-1">Execute with coordination and quality checks.</p>
+        </div>
+
+        <div class="bg-brand-card p-5 rounded-xl border border-brand-gold/60 relative bg-brand-gold/5">
+          <div class="text-xs font-mono text-brand-gold font-bold">07</div>
+          <h3 class="text-sm font-bold text-white mt-2">Handover</h3>
+          <p class="text-xs text-slate-400 mt-1">Complete final touchups and handover keys.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 12 & 13. PROJECTS SECTION ================= -->
+  <section id="projects" class="py-24 bg-[#0D0F12] border-b border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
+        <div>
+          <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">Portfolio</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif mt-2">
+            Homes We've Helped Build
+          </h2>
+          <p class="text-slate-400 text-sm mt-1">Explore our construction, design, and renovation work.</p>
+        </div>
+        <p class="text-xs text-brand-concrete max-w-sm">
+          *We present only genuine project data. Real project media is continuously updated directly from our ongoing sites.
+        </p>
+      </div>
+
+      <!-- Project Cards Grid -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Card 1 -->
+        <div class="bg-brand-card border border-brand-border rounded-xl overflow-hidden group">
+          <div class="h-56 bg-brand-dark relative flex items-center justify-center p-6 border-b border-brand-border">
+            <div class="text-center p-4 border border-dashed border-white/20 rounded-lg w-full h-full flex flex-col items-center justify-center">
+              <i data-lucide="camera" class="w-8 h-8 text-brand-gold/80 mb-2"></i>
+              <span class="text-xs font-semibold text-slate-300">VSHN RESIDENTIAL PROJECT</span>
+              <span class="text-[10px] text-brand-concrete mt-1">PROJECT IMAGE — REPLACE WITH VSHN PHOTO</span>
+            </div>
+            <div class="absolute top-3 right-3 bg-brand-gold text-black text-[10px] font-bold px-2 py-0.5 rounded">
+              Completed
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="text-[11px] font-medium text-brand-gold uppercase tracking-wider">Independent Residential House</div>
+            <h3 class="text-lg font-bold text-white mt-1">Chennai G+1 Residence</h3>
+            <div class="mt-4 grid grid-cols-2 gap-2 text-xs text-slate-300 border-y border-brand-border py-3">
+              <div><span class="text-brand-concrete">Location:</span> Chennai</div>
+              <div><span class="text-brand-concrete">Type:</span> Residential</div>
+              <div><span class="text-brand-concrete">Scope:</span> Full Turnkey</div>
+              <div><span class="text-brand-concrete">Floors:</span> G+1</div>
+            </div>
+            <a href="https://wa.me/917092507374?text=Hi%20VSHN%20Builders%2C%20I%20would%20like%20details%20on%20similar%20G%2B1%20residential%20projects%20in%20Chennai." target="_blank" rel="noopener noreferrer" class="mt-4 w-full block text-center py-2.5 rounded-lg border border-brand-border hover:border-brand-gold text-xs font-semibold text-slate-200 hover:text-brand-gold transition-colors">
+              Inquire About Similar Project
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-brand-card border border-brand-border rounded-xl overflow-hidden group">
+          <div class="h-56 bg-brand-dark relative flex items-center justify-center p-6 border-b border-brand-border">
+            <div class="text-center p-4 border border-dashed border-white/20 rounded-lg w-full h-full flex flex-col items-center justify-center">
+              <i data-lucide="drafting-compass" class="w-8 h-8 text-brand-gold/80 mb-2"></i>
+              <span class="text-xs font-semibold text-slate-300">TIRUVANNAMALAI VILLA</span>
+              <span class="text-[10px] text-brand-concrete mt-1">PROJECT IMAGE — REPLACE WITH VSHN PHOTO</span>
+            </div>
+            <div class="absolute top-3 right-3 bg-white/10 text-white text-[10px] font-bold px-2 py-0.5 rounded">
+              Active / Execution
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="text-[11px] font-medium text-brand-gold uppercase tracking-wider">Plot Planning & Construction</div>
+            <h3 class="text-lg font-bold text-white mt-1">Tiruvannamalai Independent House</h3>
+            <div class="mt-4 grid grid-cols-2 gap-2 text-xs text-slate-300 border-y border-brand-border py-3">
+              <div><span class="text-brand-concrete">Location:</span> Tiruvannamalai</div>
+              <div><span class="text-brand-concrete">Type:</span> 2 BHK / 3 BHK Villa</div>
+              <div><span class="text-brand-concrete">Scope:</span> 2D + 3D + Construction</div>
+              <div><span class="text-brand-concrete">Status:</span> Progressing</div>
+            </div>
+            <a href="https://wa.me/917092507374?text=Hi%20VSHN%20Builders%2C%20I%20have%20a%20plot%20in%20Tiruvannamalai%20and%20need%20construction%20guidance." target="_blank" rel="noopener noreferrer" class="mt-4 w-full block text-center py-2.5 rounded-lg border border-brand-border hover:border-brand-gold text-xs font-semibold text-slate-200 hover:text-brand-gold transition-colors">
+              Inquire for Tiruvannamalai
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-brand-card border border-brand-border rounded-xl overflow-hidden group">
+          <div class="h-56 bg-brand-dark relative flex items-center justify-center p-6 border-b border-brand-border">
+            <div class="text-center p-4 border border-dashed border-white/20 rounded-lg w-full h-full flex flex-col items-center justify-center">
+              <i data-lucide="wrench" class="w-8 h-8 text-brand-gold/80 mb-2"></i>
+              <span class="text-xs font-semibold text-slate-300">RESIDENTIAL RENOVATION</span>
+              <span class="text-[10px] text-brand-concrete mt-1">PROJECT IMAGE — REPLACE WITH VSHN PHOTO</span>
+            </div>
+            <div class="absolute top-3 right-3 bg-brand-gold text-black text-[10px] font-bold px-2 py-0.5 rounded">
+              Completed
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="text-[11px] font-medium text-brand-gold uppercase tracking-wider">Modernization & Expansion</div>
+            <h3 class="text-lg font-bold text-white mt-1">Chennai Home Renovation</h3>
+            <div class="mt-4 grid grid-cols-2 gap-2 text-xs text-slate-300 border-y border-brand-border py-3">
+              <div><span class="text-brand-concrete">Location:</span> Chennai</div>
+              <div><span class="text-brand-concrete">Type:</span> Residential Remodeling</div>
+              <div><span class="text-brand-concrete">Scope:</span> Floor Addition & Interior</div>
+              <div><span class="text-brand-concrete">Status:</span> Handed Over</div>
+            </div>
+            <a href="https://wa.me/917092507374?text=Hi%20VSHN%20Builders%2C%20I%20would%20like%20to%20renovate%20my%20existing%20house." target="_blank" rel="noopener noreferrer" class="mt-4 w-full block text-center py-2.5 rounded-lg border border-brand-border hover:border-brand-gold text-xs font-semibold text-slate-200 hover:text-brand-gold transition-colors">
+              Inquire for Renovation
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 14. PACKAGES & CALCULATOR ================= -->
+  <section id="packages" class="py-24 bg-brand-dark border-b border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">Transparent Rates</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif mt-2">
+          Choose the Right Construction Package
+        </h2>
+        <p class="text-slate-400 text-sm mt-3">Clear square-foot base rates designed to give you clarity and budgeting confidence.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8 items-stretch">
+        
+        <!-- SUPER -->
+        <div class="bg-brand-card border border-brand-border rounded-2xl p-8 flex flex-col justify-between relative">
+          <div>
+            <span class="text-xs font-mono font-bold text-slate-400 uppercase tracking-widest">Standard Package</span>
+            <h3 class="text-2xl font-extrabold text-white font-serif mt-1">SUPER</h3>
+            <div class="mt-6 mb-6">
+              <span class="text-4xl font-extrabold text-white font-serif">₹2,250</span>
+              <span class="text-sm text-brand-concrete font-normal"> / sq.ft</span>
+            </div>
+            <div class="p-3.5 bg-black/40 rounded-lg border border-white/5 text-xs text-brand-gold font-medium mb-6">
+              Package details available on enquiry
+            </div>
+            <ul class="text-xs text-slate-300 space-y-3">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> Standard steel & branded cement</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> 2D architectural room layouts</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> Complete structural execution</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> Standard flooring & sanitary ware</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/917092507374?text=Hi%20VSHN%20Builders%2C%20please%20share%20the%20detailed%20specifications%20for%20the%20SUPER%20Package%20(%E2%82%B92%2C250%2Fsq.ft)." target="_blank" rel="noopener noreferrer" class="mt-8 block text-center py-3 rounded-lg border border-brand-border hover:border-brand-gold text-xs font-bold uppercase tracking-wider text-white hover:text-brand-gold transition-colors">
+            Inquire for SUPER
+          </a>
+        </div>
+
+        <!-- DELUXE (Featured) -->
+        <div class="bg-[#1c2028] border-2 border-brand-gold rounded-2xl p-8 flex flex-col justify-between relative shadow-2xl shadow-brand-gold/10">
+          <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-brand-gold text-black text-[10px] font-extrabold uppercase px-3 py-1 rounded-full tracking-wider">
+            Most Popular Choice
+          </div>
+          <div>
+            <span class="text-xs font-mono font-bold text-brand-gold uppercase tracking-widest">Enhanced Spec</span>
+            <h3 class="text-2xl font-extrabold text-white font-serif mt-1">DELUXE</h3>
+            <div class="mt-6 mb-6">
+              <span class="text-4xl font-extrabold text-white font-serif">₹2,450</span>
+              <span class="text-sm text-brand-concrete font-normal"> / sq.ft</span>
+            </div>
+            <div class="p-3.5 bg-black/60 rounded-lg border border-brand-gold/30 text-xs text-brand-gold font-medium mb-6">
+              Package details available on enquiry
+            </div>
+            <ul class="text-xs text-slate-300 space-y-3">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> Premium steel & high-grade cement</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> 2D Floor Plan + 3D Elevation</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> Upgraded vitrified tile finishes</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> Premium electrical & CP fittings</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/917092507374?text=Hi%20VSHN%20Builders%2C%20please%20share%20the%20detailed%20specifications%20for%20the%20DELUXE%20Package%20(%E2%82%B92%2C450%2Fsq.ft)." target="_blank" rel="noopener noreferrer" class="mt-8 block text-center py-3 rounded-lg bg-brand-gold hover:bg-brand-goldDark text-black text-xs font-bold uppercase tracking-wider transition-colors shadow-md">
+            Inquire for DELUXE
+          </a>
+        </div>
+
+        <!-- PREMIUM -->
+        <div class="bg-brand-card border border-brand-border rounded-2xl p-8 flex flex-col justify-between relative">
+          <div>
+            <span class="text-xs font-mono font-bold text-slate-400 uppercase tracking-widest">Architectural Luxury</span>
+            <h3 class="text-2xl font-extrabold text-white font-serif mt-1">PREMIUM</h3>
+            <div class="mt-6 mb-6">
+              <span class="text-4xl font-extrabold text-white font-serif">₹2,650</span>
+              <span class="text-sm text-brand-concrete font-normal"> / sq.ft</span>
+            </div>
+            <div class="p-3.5 bg-black/40 rounded-lg border border-white/5 text-xs text-brand-gold font-medium mb-6">
+              Package details available on enquiry
+            </div>
+            <ul class="text-xs text-slate-300 space-y-3">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> Top-tier structural & waterproofing systems</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> Full 3D architectural rendering & consultation</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> Designer tiles, teak wood main entrance</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> Premium brand CP fittings & fixtures</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/917092507374?text=Hi%20VSHN%20Builders%2C%20please%20share%20the%20detailed%20specifications%20for%20the%20PREMIUM%20Package%20(%E2%82%B92%2C650%2Fsq.ft)." target="_blank" rel="noopener noreferrer" class="mt-8 block text-center py-3 rounded-lg border border-brand-border hover:border-brand-gold text-xs font-bold uppercase tracking-wider text-white hover:text-brand-gold transition-colors">
+            Inquire for PREMIUM
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Quick Interactive Estimator Widget -->
+      <div class="mt-14 p-6 sm:p-8 bg-brand-card border border-brand-border rounded-xl">
+        <div class="grid md:grid-cols-12 gap-6 items-center">
+          <div class="md:col-span-7">
+            <h3 class="text-base font-bold text-white flex items-center gap-2">
+              <i data-lucide="calculator" class="w-4 h-4 text-brand-gold"></i>
+              Quick Area Cost Estimator
+            </h3>
+            <p class="text-xs text-slate-400 mt-1">Move the slider to estimate construction cost based on your approximate built-up area:</p>
+            
+            <div class="mt-4">
+              <div class="flex justify-between text-xs text-slate-300 font-mono mb-1">
+                <span>Built-up Area: <strong id="areaLabel" class="text-brand-gold">1,200 sq.ft</strong></span>
+                <span>(Plot size × floors)</span>
+              </div>
+              <input id="areaSlider" type="range" min="600" max="4000" step="50" value="1200" class="w-full accent-brand-gold cursor-pointer" />
+            </div>
+          </div>
+
+          <div class="md:col-span-5 bg-black/40 p-4 rounded-lg border border-white/5 text-center">
+            <span class="text-[11px] text-brand-concrete uppercase tracking-wider">Estimated Construction Value</span>
+            <div id="costEstimate" class="text-2xl sm:text-3xl font-extrabold text-brand-gold font-serif mt-1">
+              ₹27 Lakhs - ₹31.8 Lakhs
+            </div>
+            <p class="text-[10px] text-slate-400 mt-1">Based on Super (₹2,250) to Premium (₹2,650) range.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mandatory Official Disclaimer -->
+      <p class="mt-8 text-center text-xs text-slate-400 max-w-3xl mx-auto italic leading-relaxed">
+        Construction rates may vary depending on design, site conditions, specifications, materials and project requirements. Contact us for a project-specific estimate.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- ================= 15. WHY VSHN BUILDERS ================= -->
+  <section class="py-24 bg-[#0D0F12] border-b border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">Our Philosophy</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif mt-2">
+          Why Choose VSHN?
+        </h2>
+        <p class="text-slate-400 text-sm mt-3">We keep our promises grounded in authentic civil engineering and honest local supervision.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="bg-brand-card p-6 rounded-xl border border-brand-border">
+          <div class="w-10 h-10 rounded-lg bg-brand-gold/10 text-brand-gold flex items-center justify-center mb-4">
+            <i data-lucide="award" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-base font-bold text-white">Practical Experience</h3>
+          <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+            Real field construction experience dating back to 2006, combined with rigorous technical civil engineering discipline.
+          </p>
+        </div>
+
+        <div class="bg-brand-card p-6 rounded-xl border border-brand-border">
+          <div class="w-10 h-10 rounded-lg bg-brand-gold/10 text-brand-gold flex items-center justify-center mb-4">
+            <i data-lucide="eye" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-base font-bold text-white">Transparent Approach</h3>
+          <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+            Clear, upfront communication regarding planning, material brands, budget allocations, and timelines without hidden extras.
+          </p>
+        </div>
+
+        <div class="bg-brand-card p-6 rounded-xl border border-brand-border">
+          <div class="w-10 h-10 rounded-lg bg-brand-gold/10 text-brand-gold flex items-center justify-center mb-4">
+            <i data-lucide="heart-handshake" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-base font-bold text-white">Customer Focus</h3>
+          <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+            We understand that building an independent home is one of the most significant lifetime financial and emotional decisions for any family.
+          </p>
+        </div>
+
+        <div class="bg-brand-card p-6 rounded-xl border border-brand-border">
+          <div class="w-10 h-10 rounded-lg bg-brand-gold/10 text-brand-gold flex items-center justify-center mb-4">
+            <i data-lucide="pen-tool" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-base font-bold text-white">Design + Construction</h3>
+          <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+            No finger-pointing between architects and contractors. Planning, 2D floor plans, 3D designs, and construction guidance are all managed under one roof.
+          </p>
+        </div>
+
+        <div class="bg-brand-card p-6 rounded-xl border border-brand-border">
+          <div class="w-10 h-10 rounded-lg bg-brand-gold/10 text-brand-gold flex items-center justify-center mb-4">
+            <i data-lucide="map-pin" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-base font-bold text-white">Local Understanding</h3>
+          <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+            Hands-on familiarity with soil types, monsoon drainage, municipal set-back codes, and construction practicalities across Chennai and Tamil Nadu.
+          </p>
+        </div>
+
+        <div class="bg-brand-card p-6 rounded-xl border border-brand-border">
+          <div class="w-10 h-10 rounded-lg bg-brand-gold/10 text-brand-gold flex items-center justify-center mb-4">
+            <i data-lucide="shield" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-base font-bold text-white">Responsibility</h3>
+          <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+            Your home is treated as our genuine personal responsibility, never as an impersonal assembly-line project.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 18. VISUAL GALLERY ================= -->
+  <section id="gallery" class="py-24 bg-brand-dark border-b border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">Visual Proof</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif mt-2">
+          Work & Site Gallery
+        </h2>
+        <p class="text-slate-400 text-sm mt-3">From structural footing to completed elevations.</p>
+      </div>
+
+      <!-- Categories Filter (Interactive) -->
+      <div class="flex items-center justify-center flex-wrap gap-2 mb-10" id="galleryFilters">
+        <button class="px-4 py-1.5 rounded-full text-xs font-semibold bg-brand-gold text-black transition-all">All</button>
+        <button class="px-4 py-1.5 rounded-full text-xs font-semibold bg-brand-card text-slate-300 border border-brand-border hover:border-brand-gold transition-all">Construction</button>
+        <button class="px-4 py-1.5 rounded-full text-xs font-semibold bg-brand-card text-slate-300 border border-brand-border hover:border-brand-gold transition-all">Completed Homes</button>
+        <button class="px-4 py-1.5 rounded-full text-xs font-semibold bg-brand-card text-slate-300 border border-brand-border hover:border-brand-gold transition-all">2D Plans</button>
+        <button class="px-4 py-1.5 rounded-full text-xs font-semibold bg-brand-card text-slate-300 border border-brand-border hover:border-brand-gold transition-all">3D Designs</button>
+        <button class="px-4 py-1.5 rounded-full text-xs font-semibold bg-brand-card text-slate-300 border border-brand-border hover:border-brand-gold transition-all">Site Progress</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        
+        <div class="bg-brand-card border border-brand-border rounded-lg aspect-square flex flex-col items-center justify-center p-4 text-center">
+          <i data-lucide="image" class="w-6 h-6 text-brand-gold/60 mb-2"></i>
+          <span class="text-xs font-medium text-slate-300">Foundation & Footing</span>
+          <span class="text-[9px] text-brand-concrete mt-1">PLACEHOLDER — VSHN SITE PHOTO</span>
+        </div>
+
+        <div class="bg-brand-card border border-brand-border rounded-lg aspect-square flex flex-col items-center justify-center p-4 text-center">
+          <i data-lucide="image" class="w-6 h-6 text-brand-gold/60 mb-2"></i>
+          <span class="text-xs font-medium text-slate-300">Brickwork & Slabs</span>
+          <span class="text-[9px] text-brand-concrete mt-1">PLACEHOLDER — VSHN SITE PHOTO</span>
+        </div>
+
+        <div class="bg-brand-card border border-brand-border rounded-lg aspect-square flex flex-col items-center justify-center p-4 text-center">
+          <i data-lucide="drafting-compass" class="w-6 h-6 text-brand-gold/60 mb-2"></i>
+          <span class="text-xs font-medium text-slate-300">2D Floor Layout</span>
+          <span class="text-[9px] text-brand-concrete mt-1">PLACEHOLDER — CAD BLUEPRINT</span>
+        </div>
+
+        <div class="bg-brand-card border border-brand-border rounded-lg aspect-square flex flex-col items-center justify-center p-4 text-center">
+          <i data-lucide="box" class="w-6 h-6 text-brand-gold/60 mb-2"></i>
+          <span class="text-xs font-medium text-slate-300">3D Exterior Elevation</span>
+          <span class="text-[9px] text-brand-concrete mt-1">PLACEHOLDER — 3D RENDER</span>
+        </div>
+
+        <div class="bg-brand-card border border-brand-border rounded-lg aspect-square flex flex-col items-center justify-center p-4 text-center">
+          <i data-lucide="image" class="w-6 h-6 text-brand-gold/60 mb-2"></i>
+          <span class="text-xs font-medium text-slate-300">Plastering & Curing</span>
+          <span class="text-[9px] text-brand-concrete mt-1">PLACEHOLDER — VSHN SITE PHOTO</span>
+        </div>
+
+        <div class="bg-brand-card border border-brand-border rounded-lg aspect-square flex flex-col items-center justify-center p-4 text-center">
+          <i data-lucide="image" class="w-6 h-6 text-brand-gold/60 mb-2"></i>
+          <span class="text-xs font-medium text-slate-300">Flooring & Tiling</span>
+          <span class="text-[9px] text-brand-concrete mt-1">PLACEHOLDER — VSHN SITE PHOTO</span>
+        </div>
+
+        <div class="bg-brand-card border border-brand-border rounded-lg aspect-square flex flex-col items-center justify-center p-4 text-center">
+          <i data-lucide="image" class="w-6 h-6 text-brand-gold/60 mb-2"></i>
+          <span class="text-xs font-medium text-slate-300">Completed Elevation</span>
+          <span class="text-[9px] text-brand-concrete mt-1">PLACEHOLDER — VSHN SITE PHOTO</span>
+        </div>
+
+        <div class="bg-brand-card border border-brand-border rounded-lg aspect-square flex flex-col items-center justify-center p-4 text-center">
+          <i data-lucide="wrench" class="w-6 h-6 text-brand-gold/60 mb-2"></i>
+          <span class="text-xs font-medium text-slate-300">Renovation Finishing</span>
+          <span class="text-[9px] text-brand-concrete mt-1">PLACEHOLDER — VSHN SITE PHOTO</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 19. VIDEO & SOCIAL MEDIA ================= -->
+  <section class="py-20 bg-[#0D0F12] border-b border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 text-center">
+      
+      <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">Social & On-Site Content</span>
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif mt-2">
+        See VSHN in Action
+      </h2>
+      <p class="text-slate-400 text-sm max-w-2xl mx-auto mt-3">
+        Follow our real-time site updates, construction progress reels, 2D-to-3D project transformations, and civil engineering advice.
+      </p>
+
+      <div class="mt-8 flex flex-wrap items-center justify-center gap-4">
+        <a href="https://www.instagram.com/vshn_builders" target="_blank" rel="noopener noreferrer" class="px-6 py-3 rounded-lg bg-[#E1306C]/10 border border-[#E1306C]/30 text-white hover:bg-[#E1306C]/20 transition-all flex items-center gap-2.5 text-sm font-semibold">
+          <i data-lucide="instagram" class="w-5 h-5 text-[#E1306C]"></i>
+          <span>Instagram (@vshn_builders)</span>
+        </a>
+
+        <a href="https://www.youtube.com/@vshnbuilders" target="_blank" rel="noopener noreferrer" class="px-6 py-3 rounded-lg bg-[#FF0000]/10 border border-[#FF0000]/30 text-white hover:bg-[#FF0000]/20 transition-all flex items-center gap-2.5 text-sm font-semibold">
+          <i data-lucide="youtube" class="w-5 h-5 text-[#FF0000]"></i>
+          <span>YouTube (@vshnbuilders)</span>
+        </a>
+
+        <a href="https://www.threads.net/@vshn_builders" target="_blank" rel="noopener noreferrer" class="px-6 py-3 rounded-lg bg-white/5 border border-white/10 text-white hover:bg-white/10 transition-all flex items-center gap-2.5 text-sm font-semibold">
+          <i data-lucide="at-sign" class="w-5 h-5 text-brand-gold"></i>
+          <span>Threads (@vshn_builders)</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 16 & 17. TESTIMONIALS & GOOGLE REVIEWS ================= -->
+  <section class="py-24 bg-brand-dark border-b border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">Client Feedback</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif mt-2">
+          What Our Customers Say
+        </h2>
+        <p class="text-slate-400 text-sm mt-3">We believe in transparent, verifiable building relationships.</p>
+      </div>
+
+      <!-- Trust Rules Complaint Placeholder Area -->
+      <div class="max-w-2xl mx-auto p-8 rounded-2xl bg-brand-card border border-brand-border text-center">
+        <div class="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mx-auto text-brand-gold mb-4">
+          <i data-lucide="message-square" class="w-6 h-6"></i>
+        </div>
+        <h3 class="text-base font-bold text-white mb-2">Verified Testimonials</h3>
+        <p class="text-xs text-brand-concrete leading-relaxed mb-6">
+          Real customer testimonials and project-specific reviews will be added here as clients submit their feedback upon house handover.
+        </p>
+
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-black/40 border border-brand-border text-xs text-slate-300">
+          <i data-lucide="star" class="w-4 h-4 text-brand-gold fill-brand-gold"></i>
+          <span>Google Reviews rating will display our verified score once connected.</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 20. LOCATION, SERVICE AREAS & GOOGLE MAPS ================= -->
+  <section id="service-areas" class="py-24 bg-[#0D0F12] border-b border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-5 space-y-6">
+          <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">Service Coverage</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif leading-tight">
+            Building Across <br />
+            <span class="gold-text-gradient">Tamil Nadu</span>
+          </h2>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            Our active core operational hubs are <strong>Chennai</strong> and <strong>Tiruvannamalai</strong>. If you own a plot or property outside these locations, our engineering team can discuss site viability and project feasibility on request.
+          </p>
+
+          <!-- Verified Office Address Card with EXACT Maps Link -->
+          <div class="p-6 rounded-xl bg-brand-card border border-brand-border space-y-4">
+            <div class="flex items-start gap-3">
+              <i data-lucide="map-pin" class="w-5 h-5 text-brand-gold shrink-0 mt-0.5"></i>
+              <div>
+                <h3 class="text-sm font-bold text-white">VSHN Builders Office</h3>
+                <p class="text-xs text-slate-300 mt-1 leading-relaxed">
+                  AA Garden, 42/60, Ottravadai St, Press Colony, Tondiarpet, Chennai, Tamil Nadu 600081
+                </p>
+                <p class="text-[11px] text-brand-concrete mt-1">Landmark: Near New Washermenpet Metro</p>
+              </div>
+            </div>
+
+            <div class="pt-2 flex flex-col sm:flex-row gap-3">
+              <a href="https://www.google.com/maps/dir/?api=1&destination=VSHN+Builders,+AA+Garden,+42%2F60,+Ottravadai+St,+Press+Colony,+Tondiarpet,+Chennai,+Tamil+Nadu+600081" target="_blank" rel="noopener noreferrer" class="flex-1 bg-brand-gold hover:bg-brand-goldDark text-black text-xs font-bold uppercase tracking-wider py-3 rounded-lg text-center transition-all flex items-center justify-center gap-2">
+                <i data-lucide="navigation" class="w-4 h-4"></i>
+                <span>Get Directions</span>
+              </a>
+              <a href="tel:+917092507374" class="px-5 py-3 rounded-lg border border-brand-border hover:border-brand-gold text-white text-xs font-semibold text-center transition-all flex items-center justify-center gap-2">
+                <i data-lucide="phone" class="w-3.5 h-3.5 text-brand-gold"></i>
+                <span>Call Office</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Maps Embed / Interactive Preview Container -->
+        <div class="lg:col-span-7 bg-brand-card border border-brand-border rounded-2xl overflow-hidden shadow-2xl relative">
+          <!-- Embed pointing to Tondiarpet/Ottravadai St coordinates -->
+          <div class="w-full h-[400px] relative bg-brand-dark">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.6661332768595!2d80.2858066!3d13.1190479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526f6323b37a3b%3A0xb36b53297a7a1bc7!2sOttravadai%20St%2C%20Press%20Colony%2C%20Tondiarpet%2C%20Chennai%2C%20Tamil%20Nadu%20600081!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+              width="100%" 
+              height="100%" 
+              style="border:0; filter: invert(90%) hue-rotate(180deg) contrast(90%);" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="VSHN Builders Office Location">
+            </iframe>
+            
+            <a href="https://www.google.com/maps/dir/?api=1&destination=VSHN+Builders,+AA+Garden,+42%2F60,+Ottravadai+St,+Press+Colony,+Tondiarpet,+Chennai,+Tamil+Nadu+600081" target="_blank" rel="noopener noreferrer" class="absolute bottom-4 right-4 bg-brand-charcoal/95 border border-brand-gold/60 text-brand-gold text-xs font-semibold px-4 py-2 rounded-lg shadow-lg flex items-center gap-2 hover:bg-brand-gold hover:text-black transition-all">
+              <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              <span>Open in Google Maps App</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 21. LANDOWNER / DEVELOPMENT OPPORTUNITY ================= -->
+  <section class="py-16 bg-brand-dark border-b border-brand-border">
+    <div class="max-w-5xl mx-auto px-4 sm:px-8">
+      <div class="p-8 sm:p-10 rounded-2xl bg-gradient-to-r from-brand-card via-[#1e232c] to-brand-card border border-brand-gold/30 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="space-y-2 text-center md:text-left">
+          <span class="text-xs font-bold uppercase tracking-wider text-brand-gold">Property Advisory</span>
+          <h3 class="text-xl sm:text-2xl font-bold text-white font-serif">Have a Property or Development Opportunity?</h3>
+          <p class="text-xs sm:text-sm text-slate-300 max-w-xl">
+            If you own a property and are exploring construction, redevelopment or development opportunities, talk to our team about your requirements.
+          </p>
+        </div>
+        <a href="https://wa.me/917092507374?text=Hi%20VSHN%20Builders%2C%20I%20have%20a%20property%20%2F%20land%20and%20would%20like%20to%20discuss%20development%20possibilities." target="_blank" rel="noopener noreferrer" class="shrink-0 px-6 py-3.5 rounded-lg bg-brand-gold hover:bg-brand-goldDark text-black text-xs font-bold uppercase tracking-wider transition-all shadow-md">
+          Discuss Your Property
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 22. SEO FAQS ACCORDION ================= -->
+  <section class="py-24 bg-[#0D0F12] border-b border-brand-border">
+    <div class="max-w-4xl mx-auto px-4 sm:px-8">
+      
+      <div class="text-center mb-16">
+        <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">Frequently Asked Questions</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif mt-2">
+          Clear Answers to Common Questions
+        </h2>
+      </div>
+
+      <div class="space-y-4" id="faqList">
+        
+        <div class="bg-brand-card border border-brand-border rounded-xl p-5 cursor-pointer faq-item">
+          <div class="flex items-center justify-between font-semibold text-sm text-white">
+            <span>How much does house construction cost in Chennai?</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-brand-gold transition-transform"></i>
+          </div>
+          <div class="mt-3 text-xs text-slate-300 leading-relaxed hidden faq-answer">
+            Construction rates depend on specifications, architectural design, soil conditions, and your selected package. Our standard base packages start from ₹2,250/sq.ft for Super, ₹2,450/sq.ft for Deluxe, up to ₹2,650/sq.ft for Premium luxury finishes.
+          </div>
+        </div>
+
+        <div class="bg-brand-card border border-brand-border rounded-xl p-5 cursor-pointer faq-item">
+          <div class="flex items-center justify-between font-semibold text-sm text-white">
+            <span>What is included in house construction?</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-brand-gold transition-transform"></i>
+          </div>
+          <div class="mt-3 text-xs text-slate-300 leading-relaxed hidden faq-answer">
+            Inclusions depend on the selected package and scope of work agreed upon. Generally, complete house construction covers foundation earthwork, RCC framed structures, brick masonry, plastering, plumbing lines, electrical wiring, tiling, painting, and fitting installation.
+          </div>
+        </div>
+
+        <div class="bg-brand-card border border-brand-border rounded-xl p-5 cursor-pointer faq-item">
+          <div class="flex items-center justify-between font-semibold text-sm text-white">
+            <span>Do you provide 2D house plans?</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-brand-gold transition-transform"></i>
+          </div>
+          <div class="mt-3 text-xs text-slate-300 leading-relaxed hidden faq-answer">
+            Yes, subject to the service scope agreed for your project. We prepare comprehensive 2D CAD architectural plans optimized for natural lighting, ventilation, and plot dimensions.
+          </div>
+        </div>
+
+        <div class="bg-brand-card border border-brand-border rounded-xl p-5 cursor-pointer faq-item">
+          <div class="flex items-center justify-between font-semibold text-sm text-white">
+            <span>Do you provide 3D elevation designs?</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-brand-gold transition-transform"></i>
+          </div>
+          <div class="mt-3 text-xs text-slate-300 leading-relaxed hidden faq-answer">
+            Yes, our civil and architectural design team develops photorealistic 3D exterior elevations so you can finalize colours, parapet designs, and facade details before execution begins.
+          </div>
+        </div>
+
+        <div class="bg-brand-card border border-brand-border rounded-xl p-5 cursor-pointer faq-item">
+          <div class="flex items-center justify-between font-semibold text-sm text-white">
+            <span>Do you undertake renovation?</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-brand-gold transition-transform"></i>
+          </div>
+          <div class="mt-3 text-xs text-slate-300 leading-relaxed hidden faq-answer">
+            Yes. We handle structural retrofitting, additional floor extensions, bathroom/kitchen overhauls, and complete facade renovations for existing residential properties.
+          </div>
+        </div>
+
+        <div class="bg-brand-card border border-brand-border rounded-xl p-5 cursor-pointer faq-item">
+          <div class="flex items-center justify-between font-semibold text-sm text-white">
+            <span>Do you construct houses in Tiruvannamalai?</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-brand-gold transition-transform"></i>
+          </div>
+          <div class="mt-3 text-xs text-slate-300 leading-relaxed hidden faq-answer">
+            Yes. Tiruvannamalai is one of our primary operating hubs alongside Chennai. We provide complete turnkey construction and site guidance across the region.
+          </div>
+        </div>
+
+        <div class="bg-brand-card border border-brand-border rounded-xl p-5 cursor-pointer faq-item">
+          <div class="flex items-center justify-between font-semibold text-sm text-white">
+            <span>Can I build a house if I already have a plan?</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-brand-gold transition-transform"></i>
+          </div>
+          <div class="mt-3 text-xs text-slate-300 leading-relaxed hidden faq-answer">
+            Yes. VSHN Builders can review your existing drawing, conduct a site verification, assess practical structural execution feasibility, and provide a clear material & labour estimate.
+          </div>
+        </div>
+
+        <div class="bg-brand-card border border-brand-border rounded-xl p-5 cursor-pointer faq-item">
+          <div class="flex items-center justify-between font-semibold text-sm text-white">
+            <span>How do I get a construction estimate?</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-brand-gold transition-transform"></i>
+          </div>
+          <div class="mt-3 text-xs text-slate-300 leading-relaxed hidden faq-answer">
+            Simply submit the consultation form below or send us a WhatsApp message with your <strong>Location</strong>, <strong>Plot Size</strong>, <strong>Number of Floors</strong>, and <strong>Approximate Built-up Area</strong>. We will arrange a consultation and prepare a preliminary estimate.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 23, 24, 25. LEAD GENERATION & CONTACT ================= -->
+  <section id="contact" class="py-24 bg-brand-dark relative arch-grid">
+    <div class="max-w-4xl mx-auto px-4 sm:px-8 relative z-10">
+      
+      <div class="text-center mb-12">
+        <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">Start Building</span>
+        <h2 class="text-3xl sm:text-5xl font-extrabold text-white font-serif mt-2">
+          Planning to Build Your Dream Home?
+        </h2>
+        <p class="text-slate-300 text-sm mt-3">
+          Tell us about your plot and requirements. Our engineering team will help you understand the practical next steps.
+        </p>
+      </div>
+
+      <div class="bg-brand-card border border-brand-border rounded-2xl p-8 sm:p-10 shadow-2xl">
+        <form id="leadForm" class="space-y-6">
+          
+          <div class="grid sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Your Name *</label>
+              <input type="text" id="formName" required placeholder="e.g. Ramesh Kumar" class="w-full bg-[#121418] border border-brand-border rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-gold transition-colors" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Phone Number *</label>
+              <input type="tel" id="formPhone" required placeholder="e.g. 9876543210" class="w-full bg-[#121418] border border-brand-border rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-gold transition-colors" />
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Plot Location *</label>
+              <input type="text" id="formLocation" required placeholder="e.g. Chennai / Tiruvannamalai" class="w-full bg-[#121418] border border-brand-border rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-gold transition-colors" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Service Required *</label>
+              <select id="formService" class="w-full bg-[#121418] border border-brand-border rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-gold transition-colors">
+                <option value="House Construction">Complete House Construction</option>
+                <option value="Renovation">Home Renovation</option>
+                <option value="2D Plan">2D Floor Plan</option>
+                <option value="3D Design">3D Exterior Design</option>
+                <option value="Planning">Planning Guidance</option>
+                <option value="Construction Consultation">Construction Consultation</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-3 gap-6">
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Plot Size</label>
+              <input type="text" id="formPlotSize" placeholder="e.g. 1200 sq.ft / 30x40" class="w-full bg-[#121418] border border-brand-border rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-gold transition-colors" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Number of Floors</label>
+              <input type="text" id="formFloors" placeholder="e.g. Ground / G+1 / G+2" class="w-full bg-[#121418] border border-brand-border rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-gold transition-colors" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Approx Built-up Area</label>
+              <input type="text" id="formBuiltUp" placeholder="e.g. 1500 sq.ft" class="w-full bg-[#121418] border border-brand-border rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-gold transition-colors" />
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Message or Special Requirements</label>
+            <textarea id="formMessage" rows="3" placeholder="Briefly describe your requirements or timeline..." class="w-full bg-[#121418] border border-brand-border rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-gold transition-colors"></textarea>
+          </div>
+
+          <div class="pt-2">
+            <button type="submit" class="w-full py-4 rounded-lg bg-brand-gold hover:bg-brand-goldDark text-black text-sm font-extrabold uppercase tracking-wider transition-all shadow-xl shadow-brand-gold/20 flex items-center justify-center gap-2">
+              <i data-lucide="send" class="w-4 h-4"></i>
+              <span>Request a Consultation via WhatsApp</span>
+            </button>
+          </div>
+
+        </form>
+
+        <!-- Quick Contacts Sub-bar -->
+        <div class="mt-8 pt-8 border-t border-brand-border grid sm:grid-cols-2 gap-4 text-center">
+          <a href="tel:+917092507374" class="p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-colors flex items-center justify-center gap-2 text-sm text-white font-medium">
+            <i data-lucide="phone-call" class="w-4 h-4 text-brand-gold"></i>
+            <span>Call Now: +91 70925 07374</span>
+          </a>
+          <a href="https://wa.me/917092507374?text=Hi%20VSHN%20Builders%20%F0%9F%91%8B%0AI%20am%20interested%20in%20building%20a%20house.%0ALocation%3A%0APlot%20Size%3A%0ANumber%20of%20Floors%3A%0APlease%20share%20more%20details." target="_blank" rel="noopener noreferrer" class="p-3 rounded-lg bg-[#25D366]/10 hover:bg-[#25D366]/20 transition-colors flex items-center justify-center gap-2 text-sm text-[#25D366] font-medium">
+            <i data-lucide="message-circle" class="w-4 h-4"></i>
+            <span>Instant WhatsApp Chat</span>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 26. FOOTER ================= -->
+  <footer class="bg-[#090A0D] border-t border-brand-border pt-16 pb-12 text-slate-400 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-14 border-b border-white/5">
+        
+        <!-- Brand Column -->
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="bg-white p-1 rounded-full w-10 h-10 flex items-center justify-center border border-brand-gold">
+              <img src="logo.jpg" alt="VSHN Builders Logo" class="w-full h-full object-contain" />
+            </div>
+            <div>
+              <span class="text-lg font-bold text-white font-serif tracking-wider">VSHN BUILDERS</span>
+              <p class="text-[10px] text-brand-gold tracking-widest uppercase">Building Dreams. Creating Trust.</p>
+            </div>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed max-w-sm">
+            Complete residential house construction, renovation, 2D blueprints, and 3D elevations across Chennai, Tiruvannamalai, and Tamil Nadu.
+          </p>
+          <div class="pt-2 text-[11px] text-brand-concrete">
+            <strong class="text-white">YOUR DREAM HOME. OUR RESPONSIBILITY.</strong>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-4">Quick Links</h4>
+          <ul class="space-y-2.5">
+            <li><a href="#about" class="hover:text-brand-gold transition-colors">About Us</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition-colors">Services</a></li>
+            <li><a href="#projects" class="hover:text-brand-gold transition-colors">Projects</a></li>
+            <li><a href="#packages" class="hover:text-brand-gold transition-colors">Packages & Rates</a></li>
+            <li><a href="#gallery" class="hover:text-brand-gold transition-colors">Visual Gallery</a></li>
+            <li><a href="#contact" class="hover:text-brand-gold transition-colors">Get Consultation</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div>
+          <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-4">Services</h4>
+          <ul class="space-y-2.5">
+            <li><a href="#services" class="hover:text-brand-gold transition-colors">House Construction</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition-colors">Home Renovation</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition-colors">2D House Plans</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition-colors">3D Exterior Designs</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition-colors">Planning Guidance</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition-colors">Civil Consultation</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact & Location with Direct Link -->
+        <div>
+          <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-4">Head Office</h4>
+          <div class="space-y-3 leading-relaxed">
+            <p class="text-white">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5 text-brand-gold inline mr-1"></i>
+              Near New Washermenpet Metro, AA Garden, 42/60, Ottravadai St, Press Colony, Tondiarpet, Chennai - 600081
+            </p>
+            <p>
+              <a href="https://www.google.com/maps/dir/?api=1&destination=VSHN+Builders,+AA+Garden,+42%2F60,+Ottravadai+St,+Press+Colony,+Tondiarpet,+Chennai,+Tamil+Nadu+600081" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline inline-flex items-center gap-1 font-semibold">
+                <span>View Google Maps Directions</span>
+                <i data-lucide="external-link" class="w-3 h-3"></i>
+              </a>
+            </p>
+            <p class="text-white">
+              <i data-lucide="phone" class="w-3.5 h-3.5 text-brand-gold inline mr-1"></i>
+              <a href="tel:+917092507374" class="hover:text-brand-gold">+91 70925 07374</a>
+            </p>
+            <div class="flex items-center gap-3 pt-2">
+              <a href="https://www.instagram.com/vshn_builders" target="_blank" rel="noopener noreferrer" class="p-2 rounded bg-white/5 hover:bg-white/10 text-white hover:text-brand-gold transition-colors" title="Instagram">
+                <i data-lucide="instagram" class="w-4 h-4"></i>
+              </a>
+              <a href="https://www.youtube.com/@vshnbuilders" target="_blank" rel="noopener noreferrer" class="p-2 rounded bg-white/5 hover:bg-white/10 text-white hover:text-brand-gold transition-colors" title="YouTube">
+                <i data-lucide="youtube" class="w-4 h-4"></i>
+              </a>
+              <a href="https://www.threads.net/@vshn_builders" target="_blank" rel="noopener noreferrer" class="p-2 rounded bg-white/5 hover:bg-white/10 text-white hover:text-brand-gold transition-colors" title="Threads">
+                <i data-lucide="at-sign" class="w-4 h-4"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright & Bottom Bar -->
+      <div class="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
+        <p>© <span id="year">2026</span> VSHN Builders. All rights reserved. Registered Residential Builder in Tamil Nadu.</p>
+        <p class="text-right">Service Areas: Chennai • Tiruvannamalai • Tamil Nadu</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ================= FLOATING STICKY MOBILE CTAS ================= -->
+  <div class="sm:hidden fixed bottom-4 right-4 left-4 z-40 flex items-center gap-2">
+    <a href="tel:+917092507374" class="flex-1 py-3 px-4 rounded-xl bg-brand-charcoal border border-brand-border text-white text-xs font-bold flex items-center justify-center gap-2 shadow-2xl">
+      <i data-lucide="phone" class="w-4 h-4 text-brand-gold"></i>
+      <span>Call Now</span>
+    </a>
+    <a href="https://wa.me/917092507374?text=Hi%20VSHN%20Builders%20%F0%9F%91%8B%0AI%20am%20interested%20in%20building%20a%20house." target="_blank" rel="noopener noreferrer" class="flex-1 py-3 px-4 rounded-xl bg-[#25D366] text-black text-xs font-bold flex items-center justify-center gap-2 shadow-2xl">
+      <i data-lucide="message-circle" class="w-4 h-4"></i>
+      <span>WhatsApp Us</span>
+    </a>
+  </div>
+
+  <!-- Lucide Script Initialization & Interactivity -->
+  <script>
+    // Initialize icons
+    lucide.createIcons();
+
+    // Set Copyright Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    document.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+
+    // FAQs Accordion Logic
+    document.querySelectorAll('.faq-item').forEach(item => {
+      item.addEventListener('click', () => {
+        const answer = item.querySelector('.faq-answer');
+        const icon = item.querySelector('i');
+        const isHidden = answer.classList.contains('hidden');
+        
+        // Close others
+        document.querySelectorAll('.faq-answer').forEach(ans => ans.classList.add('hidden'));
+        document.querySelectorAll('.faq-item i').forEach(ic => ic.classList.remove('rotate-180'));
+        
+        if (isHidden) {
+          answer.classList.remove('hidden');
+          icon.classList.add('rotate-180');
+        }
+      });
+    });
+
+    // Square Foot Cost Slider Logic
+    const slider = document.getElementById('areaSlider');
+    const label = document.getElementById('areaLabel');
+    const estimate = document.getElementById('costEstimate');
+
+    slider.addEventListener('input', (e) => {
+      const sqft = parseInt(e.target.value);
+      label.textContent = `${sqft.toLocaleString()} sq.ft`;
+      
+      const minCost = Math.round((sqft * 2250) / 100000 * 10) / 10;
+      const maxCost = Math.round((sqft * 2650) / 100000 * 10) / 10;
+      
+      estimate.textContent = `₹${minCost} Lakhs - ₹${maxCost} Lakhs`;
+    });
+
+    // WhatsApp Form Submission Generator
+    document.getElementById('leadForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const name = document.getElementById('formName').value;
+      const phone = document.getElementById('formPhone').value;
+      const location = document.getElementById('formLocation').value;
+      const service = document.getElementById('formService').value;
+      const plotSize = document.getElementById('formPlotSize').value || 'Not specified';
+      const floors = document.getElementById('formFloors').value || 'Not specified';
+      const builtUp = document.getElementById('formBuiltUp').value || 'Not specified';
+      const msg = document.getElementById('formMessage').value || 'None';
+
+      const text = `Hi VSHN Builders 👋\nI am interested in ${service}.\n\nName: ${name}\nPhone: ${phone}\nLocation: ${location}\nPlot Size: ${plotSize}\nFloors: ${floors}\nApprox Built-up Area: ${builtUp}\nMessage: ${msg}\n\nPlease share more details.`;
+
+      const encodedUrl = `https://wa.me/917092507374?text=${encodeURIComponent(text)}`;
+      window.open(encodedUrl, '_blank');
+    });
+  </script>
+</body>
+</html>
